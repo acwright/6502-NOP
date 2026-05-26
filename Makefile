@@ -12,7 +12,7 @@ view:
 	hexdump -C $(TARGET).bin
 
 eeprom:
-	minipro -p AT28C256	-w NOP.bin
+	minipro -p AT28C256	-w $(TARGET).bin
 
 clean:
 	rm $(TARGET).bin
