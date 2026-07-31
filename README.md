@@ -1,7 +1,9 @@
 6502-NOP
 ========
 
-This is a simple ROM for the [A.C. Wright 6502 project](https://github.com/acwright/6502) filled with NOPs (`$EA`) that does nothing (NOP = No Operation).
+This is a simple ROM for the [A.C. Wright 6502](https://github.com/acwright/6502-ACE) family of computer systems, filled with NOPs (`$EA`) so that it does nothing (NOP = No Operation).
+
+It is a hardware bring-up aid: with this ROM fitted the CPU free-runs through the whole address space, so the address lines, decode logic and bus can be probed without any firmware behaviour in the way.
 
 ## Prerequisites
 
@@ -63,3 +65,13 @@ Remove generated files:
 ```bash
 make clean
 ```
+
+## Related
+
+- [6502-ACE](https://github.com/acwright/6502-ACE) — the hardware, and the index of the whole family
+- [6502-BIOS](https://github.com/acwright/6502-BIOS) — the real firmware to fit once the board checks out
+- [6502-WOZMON](https://github.com/acwright/6502-WOZMON) — a minimal but usable ROM, the next step up from this one
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
