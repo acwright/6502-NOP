@@ -1,7 +1,7 @@
 6502-NOP
 ========
 
-This is a simple ROM for the [A.C. Wright 6502](https://github.com/acwright/6502-ACE) family of computer systems, filled with NOPs (`$EA`) so that it does nothing (NOP = No Operation).
+This is a simple ROM for the [AC6502](https://github.com/acwright/6502-ACE) family of computer systems, filled with NOPs (`$EA`) so that it does nothing (NOP = No Operation).
 
 It is a hardware bring-up aid: with this ROM fitted the CPU free-runs through the whole address space, so the address lines, decode logic and bus can be probed without any firmware behaviour in the way.
 
